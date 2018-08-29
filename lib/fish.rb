@@ -3,7 +3,7 @@ class Fish
   
   def initialize(name)
     @name = name
-    @moode = "nervous"
+    @mood = "nervous"
   end 
   
 end
