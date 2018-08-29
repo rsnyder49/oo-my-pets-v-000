@@ -17,7 +17,7 @@ class Owner
   end 
   
   def self.count 
-    @all_owners.length 
+    @@all_owners.length 
   end 
   
 end
