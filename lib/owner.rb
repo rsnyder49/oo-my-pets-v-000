@@ -22,8 +22,12 @@ class Owner
     @@all_owners.length 
   end 
   
-  def species(type)
-    @type = type 
+  def species(species)
+    @species = species 
   end 
+  
+  def say_species
+    "I am a #{@type}."
+  end
   
 end
