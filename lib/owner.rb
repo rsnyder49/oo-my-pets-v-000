@@ -1,6 +1,6 @@
 class Owner
   attr_accessor :pets, :name
-  attr_reader :type
+  attr_reader :species
   
   @@all_owners = []
   
@@ -27,7 +27,7 @@ class Owner
   end 
   
   def say_species
-    "I am a #{@type}."
+    "I am a #{@species}."
   end
   
 end
