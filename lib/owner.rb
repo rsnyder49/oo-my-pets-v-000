@@ -22,7 +22,7 @@ class Owner
     @@all_owners.length 
   end 
   
-  def species(species)
+  def species(species = "human")
     @species = species 
   end 
   
