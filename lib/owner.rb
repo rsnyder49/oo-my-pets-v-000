@@ -21,7 +21,7 @@ class Owner
     @@all_owners.length 
   end 
   
-  def species(type)
+  def species=(type)
     @type = type 
   end 
   
